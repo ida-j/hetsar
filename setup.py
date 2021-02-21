@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Learn more: https://github.com/kennethreitz/setup.py
-
 from setuptools import setup, find_packages
 
 
@@ -12,13 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
-    long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    name='hetsar',
+    version='0.1',
+    description='Package for estimating the Heterogeneous SAR model (HSAR)',
+#     long_description=readme,
+    author='Ida Johnsson',
+    author_email='ida.b.johnsson@gmail.com',
+    url='https://github.com/ida-j/hetsar',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
