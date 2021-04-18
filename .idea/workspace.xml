@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="207c5768-925e-473f-aa3c-aebc76c8d3f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hetsar-0.1.0.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hetsar-0.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar/estimators.py" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar/estimators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hetsar/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rMGwO1QIqVeW1FJwI5vzYBECD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
