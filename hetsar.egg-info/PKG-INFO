@@ -1,49 +1,52 @@
 Metadata-Version: 2.1
 Name: hetsar
-Version: 2.0
+Version: 3.4
 Summary: Estimation of spatial autoregressive panel data models with heterogeneous coefficients
 Home-page: https://github.com/ida-j/hetsar
 Author: Ida Johnsson
 Author-email: ida.b.johnsson@gmail.com
 License: UNKNOWN
-Description: # HETSAR: Python package to estimate spatial autoregressive models with heterogeneous coefficients
-        
-        hetsar fits spatial autoregressive panel data models with heterogeneous coefficients. 
-        The estimation is performed via quasi maximum-likelihood.
-        See Aquaro, Bailey and Pesaran (J. Appl. Econometrics, 2021) for technical details.
-        
-        The hetsar package was written in 2021 by Ida Johnsson. It is distributed under the 3-Clause BSD license.
-        
-        See the source for this project here:
-        <https://github.com/ida-j/hetsar>.
-        
-        
-        # Installation
-        
-        ## Prerequisites
-        
-        Install dependencies:
-        ```
-        $ pip install -r requirements.txt
-        ```
-        
-        Install from pip:
-        
-        ```
-        $ pip install hetsar
-        ```
-        
-        Install from source:
-        
-        ```
-        $ git clone https://github.com/ida-j/hetsar.git
-        $ cd causalml
-        $ python setup.py build_ext --inplace
-        $ python setup.py install
-        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HETSAR: Python package to estimate spatial autoregressive models with heterogeneous coefficients
+
+hetsar fits spatial autoregressive panel data models with heterogeneous coefficients. 
+The estimation is performed via quasi maximum-likelihood.
+See Aquaro, Bailey and Pesaran (J. Appl. Econometrics, 2021) for technical details.
+
+The hetsar package was written in 2021 by Ida Johnsson. It is distributed under the 3-Clause BSD license.
+
+See the source for this project here:
+<https://github.com/ida-j/hetsar>.
+
+
+# Installation
+
+## Prerequisites
+
+Install dependencies:
+```
+$ pip install -r requirements.txt
+```
+
+Install from pip:
+
+```
+$ pip install hetsar
+```
+
+Install from source:
+
+```
+$ git clone https://github.com/ida-j/hetsar.git
+$ cd hetsar
+$ python setup.py build_ext --inplace
+$ python setup.py install
+
+

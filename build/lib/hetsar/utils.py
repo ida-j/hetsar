@@ -1,8 +1,32 @@
 import numpy as np
-from scipy.optimize import minimize
 import pandas as pd
 
+def fn_significance_stars(zscore):
+    if np.abs(zscore)>=2.58:
+        return '***'
+    elif np.abs(zscore)<2.58 and np.abs(zscore)>=1.96:
+        return '**'
+    elif np.abs(zscore)<1.96 and np.abs(zscore)>=1.65:
+        return '*'
+    else:
+        return ''
 
+def fn_add_lags(df,idvar,timevar,varlist,lagorders):
+    """
+
+    :param df:
+    :param idvar:
+    :param timevar:
+    :param varlist:
+    :param lagorders:
+    :return:
+    """
+    dfl = df.set_index([idvar,timevar])
+    for lag in lagorders:
+        df_lagged = dfl.groupby(level = [0])[varlist].shift(lag).reset_index().\
+        rename(columns = {'y':f'y_l{lag}','x':f'x_l{lag}'})
+        df = df.merge(df_lagged, on = [idvar,timevar]).dropna()
+    return df.reset_index(drop = True)
 
 def fn_inv_partitioned_a(invA,m_B,m_C,m_D):
     m_C_invA = m_C@invA
@@ -137,7 +161,7 @@ def fn_varml_sandwich_Npsi_NKbeta_Nsgmsq(v_theta,m_y,m_ys,a_x,m_W):
 
     return (m_variance,m_sandwich)
 
-def format_output(res,N,T,K,var,var_sand,dep_var,exog_labels):
+def format_output(res,N,T,K,var,var_sand,dep_var,exog_labels,id_var):
     res_psi = res.x[:N].reshape([N,1])
     res_beta = res.x[N:(K+1)*N].reshape([N,K],order = 'C')
     res_sigma = res.x[(K+1)*N:].reshape([N,1])
@@ -156,7 +180,7 @@ def format_output(res,N,T,K,var,var_sand,dep_var,exog_labels):
     for i in range(len(colnames)):
         df_r['var_{}'.format(colnames[i])] = var[:,i]
         df_r['var_sandw_{}'.format(colnames[i])] = var_sand[:,i]
-    df_r.insert(0, 'i', [i for i in range(1,N+1)])
+    df_r.insert(0, id_var, [i for i in range(1,N+1)])
     return df_r
 
 

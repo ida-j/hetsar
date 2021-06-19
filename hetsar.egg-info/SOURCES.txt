@@ -9,6 +9,9 @@ hetsar.egg-info/PKG-INFO
 hetsar.egg-info/SOURCES.txt
 hetsar.egg-info/dependency_links.txt
 hetsar.egg-info/top_level.txt
+hetsar/datasets/__init__.py
+hetsar/datasets/utils.py
+hetsar/datasets/simulated/__init__.py
 tests/__init__.py
 tests/context.py
 tests/test_advanced.py

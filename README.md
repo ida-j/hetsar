@@ -29,6 +29,6 @@ Install from source:
 
 ```
 $ git clone https://github.com/ida-j/hetsar.git
-$ cd causalml
+$ cd hetsar
 $ python setup.py build_ext --inplace
 $ python setup.py install
