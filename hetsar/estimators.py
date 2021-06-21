@@ -50,7 +50,7 @@ class RegressionResultsWrapper:
         estDict = {}
         for i in self.df_est.id.unique():
             estDict[i] = {}
-            for param in ['Wy']+ self.exog_labels:
+            for param in [f'W{self.dep_var}']+ self.exog_labels:
                 paramDict = {}
                 paramDict['est'] = df_params.set_index('id').loc[i][f'{param}']
                 paramDict['se'] = df_params.set_index('id').loc[i][f's_{param}']

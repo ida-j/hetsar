@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207c5768-925e-473f-aa3c-aebc76c8d3f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hetsar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hetsar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/hetsar/estimators.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/hetsar/estimators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/hetsar/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/hetsar/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hetsar.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hetsar.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hetsar/estimators.py" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar/estimators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hetsar/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/hetsar/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
